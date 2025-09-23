@@ -4,9 +4,14 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug exercise1.mjs",
+      "name": "Debug avec network inspection",
       "program": "${workspaceFolder}/exercise1.mjs",
-      "runtimeArgs": ["--experimental-modules"]
+      "runtimeArgs": [
+        "--experimental-network-inspection"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
     }
   ]
 }

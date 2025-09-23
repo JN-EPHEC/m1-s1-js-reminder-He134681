@@ -16,4 +16,22 @@ const users = [
   { id: 4, name: "David", age: 42, specialty: "Engineering" },
   { id: 5, name: "Eve", age: 29, specialty: "Design" },
 ];
-// Your code here
+// Etape 1
+let userNames = [];
+
+for (let i=0; i < users.length; i++) {
+    userNames.push(users[i].name);
+}
+
+console.log(userNames);
+
+//Etape 2
+let userEngineers = [];
+
+for (let i=0; i < users.length; i++) {
+    if (users[i].specialty === "Engineering") {
+        userEngineers.push(users[i]);
+    }
+}
+
+console.log(userEngineers);

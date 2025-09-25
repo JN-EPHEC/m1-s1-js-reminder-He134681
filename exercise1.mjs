@@ -33,5 +33,13 @@ for (let i=0; i < users.length; i++) {
         userEngineers.push(users[i]);
     }
 }
-
 console.log(userEngineers);
+
+//Etape 3
+let userAges = 0;
+for (let i=0; i<users.length; i++){
+    userAges += users[i].age;
+}
+let averageAge = userAges / users.length;
+console.log('Average age:', averageAge);
+

@@ -1,14 +1,3 @@
-/**
- * Exercise 1 : String and Array Manipulation
- *
- * How to execute your code ?
- * Write your solution, then run the following command in your terminal:
- *      node exercise1.mjs
- */
-
-// Expected result:
-// [ 'Mobile phone', 'Laptop computer', 'Headphones', 'Smartwatch' ]
-
 const users = [
   { id: 1, name: "Alice", age: 28, specialty: "Marketing" },
   { id: 2, name: "Bob", age: 35, specialty: "Engineering" },

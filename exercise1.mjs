@@ -42,4 +42,9 @@ for (let i=0; i<users.length; i++){
 }
 let averageAge = userAges / users.length;
 console.log('Average age:', averageAge);
-
+//Etape 4
+let userDescriptions = [];
+for (let i=0; i<users.length; i++){
+    userDescriptions.push(users[i].name + ' is ' + users[i].age + ' years old and specializes in ' + users[i].specialty + '.');
+}
+console.log(userDescriptions);
